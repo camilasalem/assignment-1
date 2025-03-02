@@ -7,57 +7,73 @@
     <meta name="description" content="An informational webpage about Miami, its culture, attractions, and vibrant lifestyle.">
     <meta name="keywords" content="Miami, Florida, Beaches, Nightlife, Culture, Art Deco, Wynwood">
     <title>The Sunshine State, Miami</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- aqui empieza el body -->
 <body>
     <header>
         <h1>Welcome to Miami</h1>
         <p>Discover the beauty, culture, and excitement of Miami, Florida.</p>
+        <nav>
+                <a href="#about">About Miami</a>
+                <a href="#attractions">Top Attractions</a>
+                <a href="#activities">Must-Do Activities</a>
+                <a href="#links">Useful Links</a>
+                <a href="#favs">Local Favorites</a>
+                <a href="#gallery">Gallery</a>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>About Miami</h2>  
+        <section id="about">
+            <h2 class="title">About Miami</h2>  
             <p>Miami is a world-renowned city located in southeastern Florida. Known for its
                 stunning beaches, vibrant nightlife, diverse culture, and iconic Art Deco architecture, Miami is a top
                 destination for tourists and residents alike.</p>
         </section>
-        <section>
-            <h2>Top Attractions</h2>
+        <section id="attractions">
+            <h2 class="title">Top Attractions</h2>
             <p>Miami offers a variety of attractions, from cultural sites to outdoor
                 adventures. Whether you're exploring <a href="https://www.historymiami.org/" target="_blank"><em>History Miami Museum</em></a> or enjoying the sun at South Beach, there's
                 something for everyone.</p>
         </section>
-        <section>
-            <h2>Must-Do Activities</h2>
-            <ol>
+        <section id="activities">
+            <h2 class="title">Must-Do Activities</h2>
+            <ol class="list">
                 <li>Relax on the famous South Beach</li>
                 <li>Explore the Art Deco Historic District</li>
                 <li>Take a boat tour of Biscayne Bay</li>
             </ol>
         </section>
-        <section>
-            <h3>Useful Links</h3>
+        <section id="links">
+            <h2 class="title">Useful Links</h2>
                 <p>For more infromation about Miami, check out these links</p>
                 <ul>
-                <li><a href="https://www.miamiandbeaches.com" target="_blank">Miami Travel Guide</a></li>
-                <li><a href="https://www.visittheusa.com/destination/miami" target="_blank">Visit Miami - USA Travel Guide</a></li>                </ul>
+                    <li><a href="https://www.miamiandbeaches.com" target="_blank">Miami Travel Guide</a></li>
+                    <li><a href="https://www.visittheusa.com/destination/miami" target="_blank">Visit Miami - USA Travel Guide</a></li>                
+                </ul>
         </section>
-        <section>
-            <h3>Local Favorites</h3>
-            <ul>
+        <section id="favs">
+            <h2 class="title">Local Favorites</h2>
+            <ul class="list">
                 <li>Cuban coffee and pastries in Little Havana</li>
                 <li>Visit the Pérez Art Museum</li>
                 <li>Experience the nightlife in Wynwood and Brickell</li>
             </ul>
         </section>
-        <section>
-            <h3>Gallery</h3>
-            <img src="images/photo1.jpg" alt="" width="195">
+        <section id="gallery"> 
+            <h2 class="title">Gallery</h2>
+           <div id="pics">
+            <div>
+                <img src="images/photo1.jpg" alt="" width="195">
+            </div>
             <div>
                 <img src="images/photo2.jpg" alt="" width="250">
-                </div>
+            </div>
             <div>
                 <img src="images/photo3.jpg" alt="" width="250">
-                </div>
+            </div>
+           </div>
         </section>
     </main>
     <footer>
